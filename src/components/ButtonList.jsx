@@ -5,7 +5,7 @@ const buttonList = [
 
 const ButtonList = () => {
     return (
-        <div className="flex gap-5">
+        <div className="flex gap-5 ml-4">
             {buttonList.map((button) => {
                 return (
                     <Button key={button} name={`${button}`} />

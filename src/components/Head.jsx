@@ -12,7 +12,7 @@ const Head = () => {
     }
 
     return (
-        <div className='flex justify-between items-center shadow-lg w-full p-5'>
+        <div className='flex justify-between items-center shadow-lg w-full p-5 sticky top-0 z-9 bg-white'>
             <div className='flex gap-6'>
                 <img className='cursor-pointer' src={icons.Hamburger} alt="hamburger" onClick={() => toggleMenuHandler()} />
                 <img src={icons.Logo} alt="logo" className='w-24' /></div>

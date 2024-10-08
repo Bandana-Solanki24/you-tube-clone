@@ -5,7 +5,7 @@ const Sidebar = () => {
     const isMenuOpen = useSelector(store => store.app.isMenuOpen)
 
     return (
-        <div className="shadow-lg w-auto p-5">
+        <div className="shadow-lg w-auto p-5 fixed h-[100vh]">
             <h1 className="font-bold">{isMenuOpen && "Subscriptions"}</h1>
             <ul>
                 <li className="flex gap-4 mb-3">
